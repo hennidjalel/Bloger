@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+/*___________________ NAVBAR _________________ */
+.nav-bar{
+    background-color: black ;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    position: relative;
+    background: transparent;
+}
+
+.nav-left{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    
+}
+
+.nav-contenair a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.775);
+}
+
+.nav-righte{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    
+}
+
+.nav-righte a{
+    padding-right: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-righte a{
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 0.563);
+    color: #ffffff;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+
+.btn-left a{
+    color: #ffffff;
+    font-weight: 600;
+}
+.btn-left a:hover{
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 0.563);
+    padding: 15px 30px;
+}
+
+.btn-righte a:hover{
+    background: transparent;
+}
+
+/* ________________________ HERO _________________________*/
+
+.hero{
+    background-image:  linear-gradient(
+        to right,
+        hsla(13, 100%, 72%, 0.856),
+        hsla(353, 100%, 62%, 0.842)
+      ),url(./images/bg-pattern-intro-desktop.svg);
+      height: 70vh;
+      background-position: 40% 50%;
+      background-size: 180%;
+      position: relative;
+      border-radius: 0 0 0 100px;
+      bottom: 100px;
+}
+
+.hero-contenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    color: white;
+}
+
+.titl-hero {
+    width: 100vw;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.hero-container{
+    margin: 30px 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+.hero-btn-left{
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 0.563);
+    color: #fffefe;
+    padding: 15px 30px;
+    border: 0;
+    font-size: larger;
+    font-weight: 700;
+
+}
+
+.hero-btn-left:hover{
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+
+.hero-btn-right{
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 80px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: larger;
+    font-weight: 700;
+
+}
+.hero-btn-right:hover{
+    border-radius: 80px;
+    background-color: rgba(255, 255, 255, 0.563);
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 0ch;
+
+}
+
+/* ______________________ MAIN SECTION 1 _____________*/
+
+.main{
+    height: 100%;
+}
+
+.main-header{
+    text-align: center;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    overflow: hidden;
+}
+.main-right{
+    /* position: absolute; */
+    width: 40%;
+    height: 100%;
+}
+
+.main-left{
+    padding-left: 80px;
+   
+}
+.main-left h1{
+    font-weight: 400;
+}
+.main-left p{
+    margin: 40px 0;
+    padding-right: 200px;
+    color: #a1a1a1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+/* .img-main{
+    width: 180%;
+    margin-right: 250px;
+} */
+
+/* _______________________SECTION 1 _________________*/
+
+.section-one{
+
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    background: hsl(237, 17%, 21%);
+    background-image: url("./images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: -60% 80%;
+    border-radius: 0 100px 0 100px;
+    color: #ffffff;
+}
+.section-right{
+    padding-left: 80px;
+}
+.section-right p{
+    margin: 40px 0;
+    padding-right: 200px;
+    color: #a1a1a1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.section-left{
+    padding-left: 40px;
+}
+
+/* _________________ SECTION 2_________________*/
+
+.section-two{
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+.main-img{
+    margin-left: -42%;
+    width: 180%;
+    margin-top: 50px;
+}
+
+.section-two-right p{
+    margin: 40px 0;
+    padding-left: 200px;
+    color: #a1a1a1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-right: 250px;
+}
+.section-two-right h1{
+    padding-left: 200px;
+    font-weight: 400;
+} 
+
+/*__________________________ FOOTER_________________*/
+
+.footer-contain{
+    height: 50vh;
+    border-radius: 0 100px 0 0;
+    display: flex;
+    align-items: center;
+    background: hsl(237, 17%, 21%);
+    justify-content: space-around;
+    padding: 10px 50px ;
+    
+}
+.footer-logo{
+    height: 40px;
+    margin-bottom: 20vh;
+}
+.footer-contain a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+}
+.footer-contain ul{
+    
+    justify-content: space-around;
+    list-style: none;
+    color: #a1a1a1;
+    margin-top: 10px;
+}
+
+.footer-contain li{
+    margin-top: 10px;
+}
